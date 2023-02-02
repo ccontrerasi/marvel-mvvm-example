@@ -18,6 +18,17 @@
 		715A92E3298C195E00FAB679 /* marvelExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A92E2298C195E00FAB679 /* marvelExampleTests.swift */; };
 		715A92ED298C195E00FAB679 /* marvelExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A92EC298C195E00FAB679 /* marvelExampleUITests.swift */; };
 		715A92EF298C195E00FAB679 /* marvelExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A92EE298C195E00FAB679 /* marvelExampleUITestsLaunchTests.swift */; };
+		715A92FE298C1DF000FAB679 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A92FD298C1DF000FAB679 /* ApiServices.swift */; };
+		715A9301298C1E8700FAB679 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A9300298C1E8700FAB679 /* Constants.swift */; };
+		715A9305298C212800FAB679 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A9304298C212800FAB679 /* String+Extensions.swift */; };
+		715A930C298C245C00FAB679 /* GetCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A930B298C245C00FAB679 /* GetCharactersResponse.swift */; };
+		715A930E298C25C200FAB679 /* UrlDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A930D298C25C200FAB679 /* UrlDTO.swift */; };
+		715A9310298C260900FAB679 /* ThumbnailDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A930F298C260900FAB679 /* ThumbnailDTO.swift */; };
+		715A9314298C3BF300FAB679 /* ICharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A9313298C3BF300FAB679 /* ICharactersRepository.swift */; };
+		715A9318298C3D7800FAB679 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A9317298C3D7800FAB679 /* CharactersRepository.swift */; };
+		715A931A298C3FCA00FAB679 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A9319298C3FCA00FAB679 /* DateFormatter+Extensions.swift */; };
+		715A931D298C40A300FAB679 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A931C298C40A300FAB679 /* RequestError.swift */; };
+		715A9320298C487C00FAB679 /* MoyaProvider+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A931F298C487C00FAB679 /* MoyaProvider+Extensions.swift */; };
 		75E8F117D7062D8EA777A528 /* Pods_marvelExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B9C447E02F9E8922EB3674 /* Pods_marvelExample.framework */; };
 		E54A0A9C24AD2D0FDCB32C7D /* Pods_marvelExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772D4E1B7642BD34313842D1 /* Pods_marvelExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +67,17 @@
 		715A92E8298C195E00FAB679 /* marvelExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marvelExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715A92EC298C195E00FAB679 /* marvelExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvelExampleUITests.swift; sourceTree = "<group>"; };
 		715A92EE298C195E00FAB679 /* marvelExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvelExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		715A92FD298C1DF000FAB679 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		715A9300298C1E8700FAB679 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		715A9304298C212800FAB679 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		715A930B298C245C00FAB679 /* GetCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersResponse.swift; sourceTree = "<group>"; };
+		715A930D298C25C200FAB679 /* UrlDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlDTO.swift; sourceTree = "<group>"; };
+		715A930F298C260900FAB679 /* ThumbnailDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailDTO.swift; sourceTree = "<group>"; };
+		715A9313298C3BF300FAB679 /* ICharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICharactersRepository.swift; sourceTree = "<group>"; };
+		715A9317298C3D7800FAB679 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
+		715A9319298C3FCA00FAB679 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		715A931C298C40A300FAB679 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		715A931F298C487C00FAB679 /* MoyaProvider+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Extensions.swift"; sourceTree = "<group>"; };
 		772D4E1B7642BD34313842D1 /* Pods_marvelExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marvelExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C61B8ADEC87CF8DD8C4EA /* Pods-marvelExample-marvelExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelExample-marvelExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-marvelExample-marvelExampleUITests/Pods-marvelExample-marvelExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3DD6F1E4BBC7BF1B7D9F6A9 /* Pods-marvelExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-marvelExampleTests/Pods-marvelExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +140,10 @@
 		715A92C7298C195C00FAB679 /* marvelExample */ = {
 			isa = PBXGroup;
 			children = (
+				715A9302298C210F00FAB679 /* common */,
+				715A92FF298C1E7A00FAB679 /* resources */,
+				715A92FB298C1C4F00FAB679 /* data */,
+				715A9315298C3CD100FAB679 /* domain */,
 				715A92C8298C195C00FAB679 /* AppDelegate.swift */,
 				715A92CA298C195C00FAB679 /* SceneDelegate.swift */,
 				715A92CC298C195C00FAB679 /* ViewController.swift */,
@@ -147,6 +173,101 @@
 			path = marvelExampleUITests;
 			sourceTree = "<group>";
 		};
+		715A92FB298C1C4F00FAB679 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				715A92FC298C1C6A00FAB679 /* api */,
+				715A9306298C219A00FAB679 /* model */,
+				715A9311298C3B6300FAB679 /* repository */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		715A92FC298C1C6A00FAB679 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				715A92FD298C1DF000FAB679 /* ApiServices.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		715A92FF298C1E7A00FAB679 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		715A9302298C210F00FAB679 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				715A9303298C211900FAB679 /* Extensions */,
+				715A9300298C1E8700FAB679 /* Constants.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		715A9303298C211900FAB679 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				715A9304298C212800FAB679 /* String+Extensions.swift */,
+				715A9319298C3FCA00FAB679 /* DateFormatter+Extensions.swift */,
+				715A931F298C487C00FAB679 /* MoyaProvider+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		715A9306298C219A00FAB679 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				715A931B298C408F00FAB679 /* common */,
+				715A930A298C244200FAB679 /* response */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		715A930A298C244200FAB679 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				715A930B298C245C00FAB679 /* GetCharactersResponse.swift */,
+				715A930D298C25C200FAB679 /* UrlDTO.swift */,
+				715A930F298C260900FAB679 /* ThumbnailDTO.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		715A9311298C3B6300FAB679 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				715A9312298C3BCE00FAB679 /* Characters */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		715A9312298C3BCE00FAB679 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				715A9317298C3D7800FAB679 /* CharactersRepository.swift */,
+				715A9313298C3BF300FAB679 /* ICharactersRepository.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		715A9315298C3CD100FAB679 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		715A931B298C408F00FAB679 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				715A931C298C40A300FAB679 /* RequestError.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		B134EBAF5A3D73FFBC85C007 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +288,6 @@
 				A3DD6F1E4BBC7BF1B7D9F6A9 /* Pods-marvelExampleTests.debug.xcconfig */,
 				CC46599AB2E43E1C13969867 /* Pods-marvelExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,10 +530,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715A931D298C40A300FAB679 /* RequestError.swift in Sources */,
+				715A9320298C487C00FAB679 /* MoyaProvider+Extensions.swift in Sources */,
 				715A92CD298C195C00FAB679 /* ViewController.swift in Sources */,
+				715A9318298C3D7800FAB679 /* CharactersRepository.swift in Sources */,
+				715A930E298C25C200FAB679 /* UrlDTO.swift in Sources */,
+				715A9305298C212800FAB679 /* String+Extensions.swift in Sources */,
 				715A92D3298C195C00FAB679 /* marvelExample.xcdatamodeld in Sources */,
+				715A9314298C3BF300FAB679 /* ICharactersRepository.swift in Sources */,
+				715A9310298C260900FAB679 /* ThumbnailDTO.swift in Sources */,
 				715A92C9298C195C00FAB679 /* AppDelegate.swift in Sources */,
 				715A92CB298C195C00FAB679 /* SceneDelegate.swift in Sources */,
+				715A92FE298C1DF000FAB679 /* ApiServices.swift in Sources */,
+				715A9301298C1E8700FAB679 /* Constants.swift in Sources */,
+				715A931A298C3FCA00FAB679 /* DateFormatter+Extensions.swift in Sources */,
+				715A930C298C245C00FAB679 /* GetCharactersResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

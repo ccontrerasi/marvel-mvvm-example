@@ -6,16 +6,16 @@ PODS:
   - Localize-Swift/LocalizeSwiftCore (3.2.0)
   - Localize-Swift/UIKit (3.2.0):
     - Localize-Swift/LocalizeSwiftCore
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - R.swift (7.2.4)
   - Swinject (2.8.2)
 
 DEPENDENCIES:
   - Localize-Swift
-  - Moya (~> 14.0)
+  - Moya/Combine (~> 15.0)
   - R.swift
   - Swinject
 
@@ -30,10 +30,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   R.swift: 681bb9135f482e7a81d9d27445b837fef5467e11
   Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
 
-PODFILE CHECKSUM: 7a008db58a55a1c4d7afa96a99f40d37c3d61e68
+PODFILE CHECKSUM: d9528b70109213d6f230225a25ab96ec8658617e
 
 COCOAPODS: 1.11.3
